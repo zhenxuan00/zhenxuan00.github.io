@@ -244,7 +244,11 @@ hr {
 
 .year{
   font-weight: 600;
-  color: rgb(142,41,97);
+  color: black;
+}
+
+.prof {
+  font-weight: 600;
 }
 
 
