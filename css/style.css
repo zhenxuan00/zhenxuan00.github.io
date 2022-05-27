@@ -47,7 +47,7 @@ p.lead {
 }
 
 a {
-  color: #4682b4;
+  color: #4fa485;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
@@ -232,6 +232,22 @@ hr {
 .marginbot-40{margin-bottom:40px !important;}
 .marginbot-50{margin-bottom:50px !important;}
 
+
+/* ===========================
+--- Fonts
+============================ */
+
+.emph {
+  font-weight: 600;
+  color: rgb(188,0,32);
+}
+
+.year{
+  font-weight: 600;
+  color: rgb(142,41,97);
+}
+
+
 /* ===========================
 --- General sections
 ============================ */
@@ -351,7 +367,7 @@ hr {
 
 .title {
   font-weight: 600;
-  color: #4682b4;
+  color: #0095b6;
   /*color: #000;*/
 }
 
