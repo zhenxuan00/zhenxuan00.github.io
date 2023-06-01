@@ -49,8 +49,9 @@
               <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#about">Home</a></li>
-                  <li><a href="#next-publications">Publications</a></li>
+                  <li><a href="#next-highlights">Highlights</a></li>
                   <li><a href="#next-group">Group</a></li>
+                  <li><a href="#next-full_publications">Publications</a></li>
                   <li><a href="#next-misc">Misc</a></li>
                 </ul>
               </div>
@@ -91,8 +92,8 @@
             <div class="title">Research Topics</div>
             <ul>
               <li>Deep Generative Model</li>
-              <li>Diffusion Probabilistic Model</li>
-              <li>Learning with Limited Data</li>
+              <li>Diffusion Model</li>
+              <li>AIGC Applications</li>
               <li>Theory of Generative Model</li>
               <li>Generative AI for Science</li>
             </ul>
@@ -122,13 +123,250 @@
           </div>
           <div class="col-md-1"></div>
         </div>
+          <div id="next-highlights"></div>
+
+    </section>
+    <!-- /Section: about -->
 
 
-    <div id="next-publications"></div>
+<section id="highlights" class="home-section bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div class="section-heading">
+              <h3>Research Highlights <span class="equal">(* indicates equal contribution and &#8224; indicates correspondence.)</span></h3>
+            </div>
+
+            <ul>
+                  
+                  <div class="year">1. Efficient Sampling Algorithms for Diffusion Models</div>
+                  <br/>
+                  
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                          Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models
+                        </div>
+                        <div class="authors">
+                          Fan Bao, 
+                          <span class="cd">Chongxuan Li</span>&#8224;, 
+                          Jun Zhu&#8224;,
+                          Bo Zhang
+                        </div>
+                      </div>
+                      <div class="venue">International Conference on Learning Representations (<b>ICLR</b>), 2022</div>
+                      <div class="emph">Outstanding Paper Award</div>
+                      <span class="tag"><a target="_blank" href="https://openreview.net/forum?id=0xiJLKH-ufZ">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/baofff/Analytic-DPM">[Code]</a></span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps
+                        </div>
+                        <div class="authors">
+                          Cheng Lu, 
+                          Yuhao Zhou, 
+                          Fan Bao, 
+                          Jianfei Chen,
+                          <span class="cd">Chongxuan Li</span>,
+                          Jun Zhu
+                        </div>
+                      </div>
+                      <div class="venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>) 2022</div>
+                      <div class="emph">Oral Presentation</div>
+                    </div>
+                  </li>
+
+                  <div class="year">2. Large Scale Diffusion Models and AIGC</div>
+                  <br/>
+
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation
+                        </div>
+                        <div class="authors">
+                          Zhengyi Wang,
+                          Cheng Lu,
+                          Yikai Wang,
+                          Fan Bao, 
+                          <span class="cd">Chongxuan Li</span>&#8224;,
+                          Hang Su,
+                          Jun Zhu&#8224;
+                        </div>
+                      </div>
+                      <!-- <div class="venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>) 2022</div> -->
+                      <span class="tag"><a target="_blank" href="https://arxiv.org/abs/2305.16213">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/thu-ml/prolificdreamer">[Code]</a></span>
+                      <span class="tag"><a target="_blank" href="https://ml.cs.tsinghua.edu.cn/prolificdreamer">[Demo]</a></span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        One Transformer Fits All Distributions in Multi-Modal Diffusion at Scale
+                        </div>
+                        <div class="authors">
+                          Fan Bao, 
+                          Shen Nie, 
+                          Kaiwen Xue,
+                          <span class="cd">Chongxuan Li</span>,
+                          Shi Pu,
+                          Yaole Wang,
+                          Gang Yue,
+                          Yue Cao,
+                          Hang Su,
+                          Jun Zhu
+                        </div>
+                      </div>
+                      <div class="venue">International Conference on Machine Learning (<b>ICML</b>) 2023</div>
+                      <span class="tag"><a target="_blank" href="https://arxiv.org/abs/2303.06555">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/thu-ml/unidiffuser">[Code]</a></span>
+                      <span class="tag"><a target="_blank" href="https://huggingface.co/spaces/thu-ml/unidiffuser">[Hugging Face]</a></span>
+                      <span class="tag"><a target="_blank" href="https://colab.research.google.com/github/thu-ml/unidiffuser/blob/main/UniDiffuser.ipynb">[Colab]</a></span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        ControlVideo: Adding Conditional Control for One Shot Text-to-Video Editing
+                        </div>
+                        <div class="authors">
+                          Min Zhao, 
+                          Rongzhen Wang, 
+                          Fan Bao, 
+                          <span class="cd">Chongxuan Li</span>&#8224;,
+                          Jun Zhu&#8224;
+                        </div>
+                      </div>
+                      <!-- <div class="venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>) 2022</div> -->
+                      <span class="tag"><a target="_blank" href="https://arxiv.org/abs/2305.17098">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/thu-ml/controlvideo">[Code]</a></span>
+                      <span class="tag"><a target="_blank" href="https://controlvideo.github.io/">[Demo]</a></span>
+                    </div>
+                  </li>
+
+                  <div class="year">3. Theoretical Understanding of Generative Models</div>
+                  <br/>
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        Revisiting Discriminative vs. Generative Classifiers: Theory and Implications
+                        </div>
+                        <div class="authors">
+                          Chenyu Zheng, 
+                          Guoqiang Wu, 
+                          Fan Bao, 
+                          Yue Cao, 
+                          <span class="cd">Chongxuan Li</span>&#8224;,
+                          Jun Zhu
+                        </div>
+                      </div>
+                      <div class="venue">International Conference on Machine Learning (<b>ICML</b>) 2023</div>
+                      <span class="tag"><a target="_blank" href="https://arxiv.org/abs/2302.02334">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/ML-GSAI/Revisiting-Dis-vs-Gen-Classifiers">[Code]</a></span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        Toward Understanding Generative Data Augmentation
+                        </div>
+                        <div class="authors">
+                          Chenyu Zheng,
+                          Guoqiang Wu,
+                          <span class="cd">Chongxuan Li</span>&#8224;
+                        </div>
+                      </div>
+                      <!-- <div class="venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>) 2022</div> -->
+                      <span class="tag"><a target="_blank" href="">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/ML-GSAI/Understanding-GDA">[Code]</a></span>
+                    </div>
+                  </li>
+
+                </ul> 
+          </div>
+        </div>
+      </div>    
+
+    <div id="next-group"></div>
+    </section>
+
+    <section id="group" class="home-section">
+
+      <div class="container">
+        <div class="row">  
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <h3>ML Group @ RUC</h3>
+              <div class="row">  
+                <div class="col-md-4">
+                  <div class="title">PhD Students</div>   
+                    <ul>
+                      <li>Fan Bao (with Jun Zhu)</li>
+                      <li>Min Zhao (with Jun Zhu)</li>
+                      <li>Zhengyi Wang (with Jun Zhu)</li>
+                      <li>Yong Zhong</li>
+                      <li>Shen Nie</li>
+                      <li>Zebin You</li>
+                      <li>Yidong Ouyang (visiting, with Guang Cheng and Liyan Xie)</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                  <div class="title">Master Students</div> 
+                    <ul>
+                      <li>Hanzhong Guo (visiting)</li>
+                      <li>Di Kong (visiting)</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                  <div class="title">Undergraduate</div> 
+                    <ul>
+                      <li>Rongzhen Wang</li>
+                      <li>Kaiwen Xue</li>
+                      <li>Chenyu Zheng</li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+
+      <div class="col-md-1"></div>
+    </div>
+    
+
+
+    <section id="alumni" class="home-section">
+    <div class="container">
+        <div class="row">  
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <h3>Alumni</h3>
+              <li>Kun Xu, PhD student (with Jun Zhu), now at Citadel</li>
+              <li>Tsung Wei Tsai, master student (with Jun Zhu), now at Goldman Sachs</li>
+          </div>
+          </div>
+
+      <div class="col-md-1"></div>
+    </div>
+
+    <div id="next-full_publications"></div>
     </section>
 
     <!-- Section: publications -->
-    <section id="publications" class="home-section bg-gray">
+    <section id="full_publications" class="home-section bg-gray">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1">
@@ -138,8 +376,72 @@
 
             <ul>
                   
+                  <div class="year">Preprint</div>
+                  
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation
+                        </div>
+                        <div class="authors">
+                          Zhengyi Wang,
+                          Cheng Lu,
+                          Yikai Wang,
+                          Fan Bao, 
+                          <span class="cd">Chongxuan Li</span>&#8224;,
+                          Hang Su,
+                          Jun Zhu&#8224;
+                        </div>
+                      </div>
+                      <!-- <div class="venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>) 2022</div> -->
+                      <span class="tag"><a target="_blank" href="https://arxiv.org/abs/2305.16213">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/thu-ml/prolificdreamer">[Code]</a></span>
+                      <span class="tag"><a target="_blank" href="https://ml.cs.tsinghua.edu.cn/prolificdreamer">[Demo]</a></span>
+                    </div>
+                  </li>
 
-                  <div class="year">Preprints</div>
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        ControlVideo: Adding Conditional Control for One Shot Text-to-Video Editing
+                        </div>
+                        <div class="authors">
+                          Min Zhao, 
+                          Rongzhen Wang, 
+                          Fan Bao, 
+                          <span class="cd">Chongxuan Li</span>&#8224;,
+                          Jun Zhu&#8224;
+                        </div>
+                      </div>
+                      <!-- <div class="venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>) 2022</div> -->
+                      <span class="tag"><a target="_blank" href="https://arxiv.org/abs/2305.17098">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/thu-ml/controlvideo">[Code]</a></span>
+                      <span class="tag"><a target="_blank" href="https://controlvideo.github.io/">[Demo]</a></span>
+                    </div>
+                  </li>
+ 
+                  
+ 
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        Toward Understanding Generative Data Augmentation
+                        </div>
+                        <div class="authors">
+                          Chenyu Zheng,
+                          Guoqiang Wu,
+                          <span class="cd">Chongxuan Li</span>&#8224;
+                        </div>
+                      </div>
+                      <!-- <div class="venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>) 2022</div> -->
+                      <span class="tag"><a target="_blank" href="">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/ML-GSAI/Understanding-GDA">[Code]</a></span>
+                    </div>
+                  </li>
+
                   <li>
                     <div class="publication">
                       <div class="text">
@@ -159,6 +461,28 @@
                       <span class="tag"><a target="_blank" href="https://arxiv.org/abs/2302.10586">[Paper]</a></span>
                       <span class="tag"><a target="_blank" href="https://github.com/ML-GSAI/DPT">[Code]</a></span>
                       <span class="tag"><a target="_blank" href="https://github.com/ML-GSAI/DPT-demo">[Demo]</a></span>
+                    </div>
+                  </li>
+ 
+                  <li>
+                    <div class="publication">
+                      <div class="text">
+                        <div class="title">
+                        On Evaluating Adversarial Robustness of Large Vision-Language Models
+                        </div>
+                        <div class="authors">
+                          Yunqing Zhao,
+                          Tianyu Pang, 
+                          Chao Du, 
+                          Xiao Yang, 
+                          <span class="cd">Chongxuan Li</span>,
+                          Ngni-Man Cheung,
+                          Min Lin
+                        </div>
+                      </div>
+                      <!-- <div class="venue">Advances in Neural Information Processing Systems (<b>NeurIPS</b>) 2022</div> -->
+                      <span class="tag"><a target="_blank" href="https://arxiv.org/abs/2305.16934v1">[Paper]</a></span>
+                      <span class="tag"><a target="_blank" href="https://github.com/yunqing-me/attackvlm">[Code]</a></span>
                     </div>
                   </li>
 
@@ -908,77 +1232,14 @@
                     </div>
                   </li> 
 
-                </ul> 
+            </ul> 
           </div>
         </div>
       </div>    
 
-
-
-          <div id="next-group"></div>
-
-    </section>
-    <!-- /Section: about -->
-
-    <section id="group" class="home-section">
-
-      <div class="container">
-        <div class="row">  
-          <div class="col-md-1"></div>
-          <div class="col-md-10">
-            <h3>ML Group @ RUC</h3>
-              <div class="row">  
-                <div class="col-md-4">
-                  <div class="title">PhD Students</div>   
-                    <ul>
-                      <li>Fan Bao (with Jun Zhu)</li>
-                      <li>Min Zhao (with Jun Zhu)</li>
-                      <li>Zhengyi Wang (with Jun Zhu)</li>
-                      <li>Yong Zhong</li>
-                      <li>Shen Nie</li>
-                      <li>Zebin You</li>
-                      <li>Yidong Ouyang (visiting, with Guang Cheng and Liyan Xie)</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                  <div class="title">Master Students</div> 
-                    <ul>
-                      <li>Hanzhong Guo (visiting)</li>
-                      <li>Di Kong (visiting)</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                  <div class="title">Undergraduate</div> 
-                    <ul>
-                      <li>Rongzhen Wang</li>
-                      <li>Kaiwen Xue</li>
-                      <li>Chenyu Zheng</li>
-                    </ul>
-                  </div>
-              </div>
-          </div>
-
-      <div class="col-md-1"></div>
-    </div>
-    
-
-
-    <section id="alumni" class="home-section">
-    <div class="container">
-        <div class="row">  
-          <div class="col-md-1"></div>
-          <div class="col-md-10">
-            <h3>Alumni</h3>
-              <li>Kun Xu, PhD student (with Jun Zhu), now at Citadel</li>
-              <li>Tsung Wei Tsai, master student (with Jun Zhu), now at Goldman Sachs</li>
-          </div>
-          </div>
-
-      <div class="col-md-1"></div>
-    </div>
-
     <div id="next-misc"></div>
     </section>
+
 
     <section id="award" class="home-section">
 
@@ -1030,7 +1291,7 @@
       </div>
     </section>
     
-    <section id="grant" class="home-section">
+    <!-- <section id="grant" class="home-section">
 
       <div class="container">
         <div class="row">  
@@ -1061,7 +1322,7 @@
           <div class="col-md-1"></div>
         </div>
       </div>
-    </section>
+    </section> -->
  
     <section id="talk" class="home-section">
 
@@ -1121,7 +1382,7 @@
                     </div>
                   </li> 
 
-                  <li>
+                  <!-- <li>
                     <div class="publication">
                       <div class="text">
                         <div class="title">
@@ -1138,7 +1399,7 @@
                           </div>
                       <div class="venue">Student Webinar in Vision and Learning Seminar (<b>VALSE</b>) @ Hefei, 2019 </div> 
                     </div>
-                  </li>   
+                  </li>  -->  
               </ul>
             </div>
           <div class="col-md-1"></div>
@@ -1187,13 +1448,13 @@
           <div class="col-md-10">
             <h3>Service</h3>
               <ul>
-                <li>Reviewer or (Senior) PC member: <span class="rev-conf"> ICML, NeurIPS, ICLR, UAI, TPAMI, TCYB, TNNLS</span></li>
+                <li>Reviewer or (Senior) PC member: <span class="rev-conf"> ICML, NeurIPS, ICLR, UAI, IJCAI, AAAI, TPAMI, TCYB, TNNLS</span></li>
               </ul>
           </div>
           <div class="col-md-1"></div>
         </div>
       </div>
-          
+
     </section>
 
 
@@ -1202,7 +1463,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-12">
-            Last updated on Apr. 2023. Special thanks to Chao Du and Jiajun Wu for the style files of the homepage.
+            Last updated on June 2023. Special thanks to Chao Du and Jiajun Wu for the style files of the homepage.
           </div>
         </div>
       </div>
